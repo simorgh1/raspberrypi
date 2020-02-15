@@ -25,7 +25,7 @@ Update the wpa_supplicant.conf with your wifi information and copy it into your 
 
 ### Enabling ssh server on first boot
 
-Copy the ssh file into the sd card, that it, ssh server will start on first boot and ssh file will be removed. Please read [security update for raspbian pixel](https://www.raspberrypi.org/blog/a-security-update-for-raspbian-pixel/) for more information.
+Copy a file named ssh into the sd card, that's it, ssh server will start on first boot and ssh file will be removed. Please read [security update for raspbian pixel](https://www.raspberrypi.org/blog/a-security-update-for-raspbian-pixel/) for more information.
 
 ### Connect to raspberry pi
 
