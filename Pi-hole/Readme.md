@@ -74,8 +74,8 @@ I have attached a USB drive and backup using the following command:
 pi@raspberrypi:~ $ sudo cp --parents -r -f pihole/ /mnt/usblxr/
 ```
 
-You could add the above command into a shell script and run schedule to run it daily.
-Add your backup shell into cron with the following command:
+You could add the above command into a shell script and schedule it to run daily.
+Add your backup shell into the cron with the following command:
 
 ```
 pi@raspberrypi:~ $ crontab -e
