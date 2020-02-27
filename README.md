@@ -13,3 +13,11 @@ Installing Pi-hole as docker container. Works fine and resumes after reboot, [Re
 ## CPU temprature using dotnet core
 
 The nuget package Iot.Device.Bindings has the required library for CPU temprature on raspberryPi
+
+## Bootstrap
+
+Before running containers on raspi, it needs some bootstraping, I've used terraform and the code is checked in [here](https://github.com/simorgh1/terraform). It will install docker and telegraf.
+
+## Monitoring
+
+[Monitoring stack](https://github.com/simorgh1/raspberrypi/tree/master/Monitoring) usese grafana, influxdb and telegraf inorder to monitor cpu, network , ram and other metrics of RaspberryPi.
