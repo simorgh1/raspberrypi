@@ -20,7 +20,7 @@ services:
         container_name: grafana
         image: grafana/grafana
         restart: unless-stopped
-        user: 999:999
+        user: 997:992
         volumes: 
             - /var/lib/grafana:/var/lib/grafana            
         ports: 
